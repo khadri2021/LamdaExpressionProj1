@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 public class Test {
 	public static void main(String[] args) throws Exception {
 
-
+		System.out.println("Test-main");
 		ExecutorService service = Executors.newFixedThreadPool(2);
 		Future<Double> future = service.submit(() -> 100.00 + 300);
 
